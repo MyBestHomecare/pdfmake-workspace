@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "name": "Custom (Basic)",
+      "type": "node",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**",
+      ],
+      "program": "${workspaceFolder}/index.js",
+    },
+    {
+      "name": "Custom (Effectful)",
+      "type": "effectful",
+      "request": "launch",
+      "preset": "node",
+      "cwd": "${workspaceFolder}",
+      "command": "node",
+      "args": [
+        "index.js"
+      ],
+      "console": "integratedTerminal",
+      "timeTravel": true,
+      "env": {
+        "BABEL_DISABLE_CACHE": "1",
+        "EFFECTFUL_DEBUGGER_VERBOSE": "2",
+        "EFFECTFUL_VERBOSE": "1",
+        "EFFECTFUL_DEBUG_DEBUGGER": "1",
+      },
+    },
+    {
+      "name": "Custom (NodeChakra)",
+      "type": "node-chakracore-time-travel-debugger",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**",
+      ],
+      "program": "${workspaceFolder}/index.js",
+    },
+  ],
+}

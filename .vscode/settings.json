@@ -1,0 +1,11 @@
+{
+  "livePreview.portNumber": 8080,
+  "livePreview.openPreviewTarget": "External Browser",
+  "livePreview.defaultPreviewPath": "out",
+  "liveServer.settings.port": 8080,
+  "liveServer.settings.root": "/out",
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.CustomBrowser": null,
+  "liveServer.settings.showOnStatusbar": true,
+  "prettier.prettierPath": "./node_modules/prettier",
+}
