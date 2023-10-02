@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "postinstall": "cd pdfmake && npm install && cd dev-playground && npm install",
+    "postinstall": "cd pdfmake && npm install && cd dev-playground && npm install && mkdir out/history",
     "start": "node .",
     "dev": "nodemon ."
   },
