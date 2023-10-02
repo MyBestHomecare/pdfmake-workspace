@@ -19,7 +19,7 @@
       "cwd": "${workspaceFolder}",
       "command": "node",
       "args": [
-        "index.js"
+        "src/index.js"
       ],
       "console": "integratedTerminal",
       "timeTravel": true,
