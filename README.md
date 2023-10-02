@@ -23,7 +23,7 @@
 
 ### Running the code
 
-1. From the workspace directoy, navigate to the [`src`](src/) directory and modify the [`index.js`](src/index.js) file or any of the document definitions inside [`src/docDefinition`](src/docDefinition/). You can also create local-only docDefinitions by creating files that end in `.local.js`. So for example you could have: `src/docDefinition/myTest.local.js`. Keep in mind that the `.local.js` files will be ignored by `git`.
+1. From the workspace directoy, navigate to the [`src/`](src/) directory and modify the [`index.js`](src/index.js) file or any of the document definitions inside [`src/docDefinition`](src/docDefinition/). You can also create local-only docDefinitions by creating files that end in `.local.js`. So for example you could have: `src/docDefinition/myTest.local.js`. Keep in mind that the `.local.js` files will be ignored by `git`.
     > You can use the official [`pdfmake` playground](http://pdfmake.org/playground.html) and its [documentation](https://pdfmake.github.io/docs/0.1/) to familiarize yourself with the docDefinition syntax.
 2. To quickly generate a PDF document, in the workspace directory run:
     ```sh
@@ -41,4 +41,4 @@
 
 ### Debugging the code
 
-1. Either use the `Custom (Basic)` or the `Custom (Effectful)` configuration. The latter is preferred as it allows stepping back as well as stepping forward. It requires the [Effectful](https://marketplace.visualstudio.com/items?itemName=effectful.debugger) extension to be installed. After the code execution is finished, the resulting PDF file can be accessed either via the [live server](http://127.0.0.1:8080/) or via navigating to the [`out/`](out/) directory.
+1. Either use the `Custom (Basic)` or the `Custom (Effectful)` configurations. The latter is preferred as it allows stepping back as well as stepping forward. It requires the [Effectful](https://marketplace.visualstudio.com/items?itemName=effectful.debugger) extension to be installed. After the code execution is finished, the resulting PDF file can be accessed either via the [live server](http://127.0.0.1:8080/) or via navigating to the [`out/`](out/) directory.
