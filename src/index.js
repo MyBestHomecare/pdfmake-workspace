@@ -1,5 +1,5 @@
 const fs = require('fs');
-const PdfMake = require('./pdfmake/src/printer');
+const PdfMake = require('../pdfmake/src/printer');
 const dd = require('./docDefinition');
 const generateFileName = require('./utils');
 

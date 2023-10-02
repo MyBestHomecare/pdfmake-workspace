@@ -9,7 +9,7 @@
       "skipFiles": [
         "<node_internals>/**",
       ],
-      "program": "${workspaceFolder}/index.js",
+      "program": "${workspaceFolder}/src/index.js",
     },
     {
       "name": "Custom (Effectful)",
@@ -37,7 +37,7 @@
       "skipFiles": [
         "<node_internals>/**",
       ],
-      "program": "${workspaceFolder}/index.js",
+      "program": "${workspaceFolder}/src/index.js",
     },
   ],
 }
