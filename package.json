@@ -2,14 +2,17 @@
   "name": "pdfmake-workspace",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "cd pdfmake && npm install && cd dev-playground && npm install",
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.0.1",
     "prettier": "^3.0.2"
   }
 }
