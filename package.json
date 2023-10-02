@@ -5,13 +5,18 @@
   "main": "src/index.js",
   "scripts": {
     "postinstall": "cd pdfmake && npm install && cd dev-playground && npm install && mkdir out/history",
-    "start": "node .",
-    "dev": "nodemon ."
+    "start": "concurrently \"npm run code:watch\" \"npm run server:watch\"",
+    "code:quick": "node .",
+    "code:watch": "nodemon .",
+    "server:quick": "browser-sync start --server ./out --port 8080",
+    "server:watch": "npm run server:quick -- --watch ./out"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.1",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.2"
   }
