@@ -29,13 +29,13 @@
 
     From here you have 2 options:
     
-    #### 1. Using the NPM script:
+    #### 1. Using the NPM script (easier):
     1. In the workspace directory, simply run:
         ```sh
         npm start
         ```
     
-    #### 2. Using the Live Server extension:
+    #### 2. Using the Live Server extension (preferred):
     1. To quickly generate a PDF document, in the workspace directory run:
         ```sh
         npm run code:quick
