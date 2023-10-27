@@ -2,6 +2,7 @@ module.exports = {
   text1: require('./text1'),
   text2: require('./text2'),
   text3: require('./text3'),
+  text4: require('./text4'),
   table1: require('./table1'),
   table2: require('./table2'),
   table3: require('./table3'),
