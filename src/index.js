@@ -4,7 +4,7 @@ const dd = require('./docDefinition');
 const generateFileName = require('./utils');
 
 /**
- * @typedef {"text1"|"text2"|"text3"|"text4"|"table1"|"table2"|"table3"|"table4"|"complex1"|"complex2"|"complex3"} DataTypeUnion
+ * @typedef {"text1"|"text2"|"text3"|"table1"|"table2"|"table3"|"table4"|"complex1"|"complex2"|"complex3"} DataTypeUnion
  * @type {DataTypeUnion}
  */
 const DATA_TYPE = 'table3';
@@ -13,38 +13,11 @@ const docDefinition = dd[DATA_TYPE];
 
 //docDefinition.content.unshift({
 //  text: '•',
-//  fontSize: 5,
+//  fontSize: 20,
 //  color: 'red',
 //  absolutePosition: {
-//    x: 297.64,
+//    x: 40,
 //    y: 40,
-//  },
-//});
-//docDefinition.content.unshift({
-//  text: '•',
-//  fontSize: 5,
-//  color: 'red',
-//  absolutePosition: {
-//    x: 297.64,
-//    y: 59.0625,
-//  },
-//});
-//docDefinition.content.unshift({
-//  text: '•',
-//  fontSize: 5,
-//  color: 'red',
-//  absolutePosition: {
-//    x: 297.64,
-//    y: 784.4375,
-//  },
-//});
-//docDefinition.content.unshift({
-//  text: '•',
-//  fontSize: 5,
-//  color: 'red',
-//  absolutePosition: {
-//    x: 297.64,
-//    y: 786.4375,
 //  },
 //});
 
@@ -55,25 +28,6 @@ const docDefinition = dd[DATA_TYPE];
 //  absolutePosition: {
 //    x: 40,
 //    y: 155.375,
-//  },
-//});
-
-//docDefinition.content.unshift({
-//  text: '•',
-//  fontSize: 10,
-//  color: 'red',
-//  absolutePosition: {
-//    x: 40,
-//    y: 40,
-//  },
-//});
-//docDefinition.content.push({
-//  text: '•',
-//  fontSize: 10,
-//  color: 'red',
-//  absolutePosition: {
-//    x: 40,
-//    y: 40,
 //  },
 //});
 
