@@ -7,7 +7,7 @@ const generateFileName = require('./utils');
  * @typedef {"text1"|"text2"|"text3"|"table1"|"table2"|"table3"|"table4"|"complex1"|"complex2"|"complex3"} DataTypeUnion
  * @type {DataTypeUnion}
  */
-const DATA_TYPE = 'table3';
+const DATA_TYPE = 'text1';
 
 const docDefinition = dd[DATA_TYPE];
 
