@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "postinstall": "cd pdfmake && npm install && cd dev-playground && npm install && mkdir out/history",
+    "postinstall": "mkdir out/history && cd pdfmake && npm install && cd dev-playground && npm install",
     "start": "concurrently \"npm run code:watch\" \"npm run server:watch\"",
     "code:quick": "node .",
     "code:watch": "nodemon .",
